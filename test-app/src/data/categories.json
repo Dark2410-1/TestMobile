@@ -1,0 +1,822 @@
+[
+  {
+    "id": "js",
+    "name": "JavaScript",
+    "icon": "JS",
+    "color": "#F7DF1E",
+    "bgColor": "rgba(247, 223, 30, 0.12)",
+    "questionCount": 15,
+    "questions": [
+      {
+        "id": "js-1",
+        "question": "JavaScript da '===' va '==' operatorlari o'rtasidagi farq nima?",
+        "options": [
+          "Hech qanday farq yo'q",
+          "'===' qiymat va turni tekshiradi, '==' faqat qiymatni",
+          "'==' qiymat va turni tekshiradi, '===' faqat qiymatni",
+          "Ikkalasi ham bir xil"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "js-2",
+        "question": "closure nima?",
+        "options": [
+          "Funksiya ichidagi funksiya",
+          "O'zgaruvchilarni yopish usuli",
+          "Funksiya va uning lexical environment'i",
+          "Loop ichida var ishlatish"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "js-3",
+        "question": "Promise nima?",
+        "options": [
+          "Synchronous operatsiya",
+          "Async operatsiyani boshqarish objekti",
+          "Ma'lumotlar turi",
+          "DOM elementi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "js-4",
+        "question": "Array destructuring qanday yoziladi?",
+        "options": [
+          "const {a, b} = arr",
+          "const [a, b] = arr",
+          "const (a, b) = arr",
+          "const a, b = arr"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "js-5",
+        "question": "null va undefined o'rtasidagi farq?",
+        "options": [
+          "Farqi yo'q",
+          "null - qiymat yo'q, undefined - aniqlanmagan",
+          "undefined - qiymat yo'q, null - aniqlanmagan",
+          "Ikkalasi ham bir xil ma'noda"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "js-6",
+        "question": "Event Bubbling nima?",
+        "options": [
+          "Eventning ichki elementdan tashqariga tarqalishi",
+          "Eventning tashqi elementdan ichkariga tarqalishi",
+          "Eventni to'xtatish",
+          "Event yaratish"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "js-7",
+        "question": "localStorage va sessionStorage farqi?",
+        "options": [
+          "localStorage brauzer yopilganda o'chadi",
+          "sessionStorage brauzer yopilganda o'chadi",
+          "Farqi yo'q",
+          "sessionStorage ko'proq ma'lumot saqlaydi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "js-8",
+        "question": "setTimeout nima qaytaradi?",
+        "options": [
+          "Number (timer ID)",
+          "String",
+          "Boolean",
+          "Object"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "js-9",
+        "question": "map() metodi nima qaytaradi?",
+        "options": [
+          "Yangi array",
+          "O'zgartirilgan array",
+          "Object",
+          "Boolean"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "js-10",
+        "question": "this kalit so'zi nimaga teng?",
+        "options": [
+          "Funksiyaning o'ziga",
+          "Global objectga",
+          "Qanday chaqirilganiga bog'liq",
+          "Window objectiga"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "js-11",
+        "question": "Spread operator qanday belgilanadi?",
+        "options": [
+          "...",
+          "..",
+          "***",
+          "+++"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "js-12",
+        "question": "IIFE nima?",
+        "options": [
+          "Darhol chaqiriladigan funksiya",
+          "Interface",
+          "Array metodi",
+          "Loop turi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "js-13",
+        "question": "typeof null qanday natija qaytaradi?",
+        "options": [
+          "null",
+          "undefined",
+          "object",
+          "number"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "js-14",
+        "question": "async/await nima uchun ishlatiladi?",
+        "options": [
+          "Synchronous kod yozish",
+          "Promise bilan ishlashni soddalashtirish",
+          "DOM manipulyatsiya",
+          "CSS animatsiya"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "js-15",
+        "question": "Array reduce() metodi nima qiladi?",
+        "options": [
+          "Array elementlarini kamaytiradi",
+          "Arraydan bitta qiymat hisoblab chiqaradi",
+          "Arrayni filter qiladi",
+          "Array elementlarini o'zgartiradi"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "icon": "⚛",
+    "color": "#61DAFB",
+    "bgColor": "rgba(97, 218, 251, 0.12)",
+    "questionCount": 15,
+    "questions": [
+      {
+        "id": "react-1",
+        "question": "React component yaratish uchun qanday usul ishlatiladi?",
+        "options": [
+          "Function component",
+          "Class component",
+          "Ikkalasi ham",
+          "Faqat class component"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "react-2",
+        "question": "useEffect hook'i qanday ishlaydi?",
+        "options": [
+          "Component render bo'lgandan keyin ishlaydi",
+          "Component render bo'lishidan oldin ishlaydi",
+          "Faqat bir marta ishlaydi",
+          "Hech qachon ishlamaydi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "react-3",
+        "question": "JSX da conditional rendering qanday qilinadi?",
+        "options": [
+          "if-else bilan",
+          "Ternary operator bilan",
+          "for loop bilan",
+          "switch-case bilan"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-4",
+        "question": "React.memo() nima uchun ishlatiladi?",
+        "options": [
+          "Componentni memorizatsiya qilish",
+          "Component yaratish",
+          "State boshqaruvi",
+          "Routing"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "react-5",
+        "question": "useCallback hook'i qachon ishlatiladi?",
+        "options": [
+          "State yaratishda",
+          "Funksiyalarni memorizatsiya qilishda",
+          "DOM ga murojaat qilishda",
+          "Animatsiya qilishda"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-6",
+        "question": "React Fragment nima uchun kerak?",
+        "options": [
+          "CSS stillar uchun",
+          "Qo'shimcha DOM elementi qo'shmasdan JSX qaytarish",
+          "Routing uchun",
+          "State boshqaruvi uchun"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-7",
+        "question": "Virtual DOM qanday ishlaydi?",
+        "options": [
+          "Real DOM bilan bir xil",
+          "O'zgarishlarni diff qilib, faqat kerakli qismlarni yangilaydi",
+          "Har safar butun DOMni qayta yuklaydi",
+          "DOMni ignore qiladi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-8",
+        "question": "useRef hook'i qanday maqsadda ishlatiladi?",
+        "options": [
+          "State yaratish",
+          "DOM element va qiymatlarni saqlash",
+          "API chaqirish",
+          "CSS animatsiya"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-9",
+        "question": "React da 'key' prop'i nima uchun ishlatiladi?",
+        "options": [
+          "Elementlarni unique identifikatsiya qilish",
+          "Stil berish",
+          "Ma'lumotlarni saqlash",
+          "Routing"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "react-10",
+        "question": "useReducer hook'i qachon ishlatiladi?",
+        "options": [
+          "Oddiy state uchun",
+          "Murakkab state logikasi uchun",
+          "Faqat class componentda",
+          "Hech qachon"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-11",
+        "question": "React Context nima?",
+        "options": [
+          "State boshqaruv kutubxonasi",
+          "Props drillingni oldini olish usuli",
+          "CSS framework",
+          "Router"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-12",
+        "question": "React.lazy() nima uchun ishlatiladi?",
+        "options": [
+          "Code splitting uchun",
+          "Lazy state yaratish",
+          "Lazy rendering",
+          "Lazy styling"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "react-13",
+        "question": "SyntheticEvent nima?",
+        "options": [
+          "Brauzerning native eventi",
+          "Reactning o'z event tizimi",
+          "Custom event",
+          "Mouse event"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "react-14",
+        "question": "Controlled component nima?",
+        "options": [
+          "React tomonidan boshqariladigan input",
+          "DOM tomonidan boshqariladigan input",
+          "Hech kim boshqarmaydigan input",
+          "Faqat read-only input"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "react-15",
+        "question": "React Portal nima?",
+        "options": [
+          "Router turi",
+          "Komponentni boshqa DOM elementga render qilish",
+          "State boshqaruvi",
+          "CSS usuli"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "html",
+    "name": "HTML & CSS",
+    "icon": "🌐",
+    "color": "#E34F26",
+    "bgColor": "rgba(227, 79, 38, 0.12)",
+    "questionCount": 15,
+    "questions": [
+      {
+        "id": "html-1",
+        "question": "HTML da semantic element nima?",
+        "options": [
+          "Ma'nosiz element",
+          "Ma'noga ega element",
+          "Faqat div elementi",
+          "Faqat span elementi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-2",
+        "question": "CSS Flexbox qanday ishlaydi?",
+        "options": [
+          "Bir o'lchamli layout tizimi",
+          "Ikki o'lchamli layout tizimi",
+          "Grid tizimi",
+          "Table tizimi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "html-3",
+        "question": "CSS Grid nima uchun ishlatiladi?",
+        "options": [
+          "Bir o'lchamli layout",
+          "Ikki o'lchamli layout",
+          "Faqat mobil layout",
+          "Animatsiya"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-4",
+        "question": "Box model nimalardan tashkil topgan?",
+        "options": [
+          "Content, padding, border",
+          "Content, padding, border, margin",
+          "Padding, margin, border",
+          "Faqat content"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-5",
+        "question": "CSS media query nima uchun ishlatiladi?",
+        "options": [
+          "Media fayllarni yuklash",
+          "Responsive dizayn yaratish",
+          "Font o'lchamini o'zgartirish",
+          "Rang qo'shish"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-6",
+        "question": "HTML5 yangi elementlaridan biri?",
+        "options": [
+          "div",
+          "section",
+          "font",
+          "center"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-7",
+        "question": "CSS specificity nima?",
+        "options": [
+          "CSS rang tizimi",
+          "Qaysi stil qoidasi ustunligini belgilaydi",
+          "Font o'lchami",
+          "Element tezligi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-8",
+        "question": "Position absolute qanday ishlaydi?",
+        "options": [
+          "Document ga nisbatan joylashadi",
+          "Eng yaqin positioned ancestor ga nisbatan joylashadi",
+          "O'z o'rnida qoladi",
+          "Scroll bilan harakatlanadi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-9",
+        "question": "CSS Variable qanday yoziladi?",
+        "options": [
+          "$var-name",
+          "--var-name",
+          "@var-name",
+          "var-name:"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-10",
+        "question": "Pseudo-class ':hover' nima?",
+        "options": [
+          "Element bosilganda",
+          "Element ustiga kursor olib borilganda",
+          "Element fokusda",
+          "Element yuklanganda"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-11",
+        "question": "localStorage ma'lumotlari qayerda saqlanadi?",
+        "options": [
+          "Serverda",
+          "Brauzerda",
+          "Database da",
+          "CSS faylida"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-12",
+        "question": "HTML data-* attribute nima uchun?",
+        "options": [
+          "Stil berish",
+          "Custom ma'lumot saqlash",
+          "Routing",
+          "Animatsiya"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-13",
+        "question": "CSS animation qanday yoziladi?",
+        "options": [
+          "@keyframes bilan",
+          "@animation bilan",
+          "@move bilan",
+          "@frame bilan"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "html-14",
+        "question": "Responsive image uchun qaysi attribute ishlatiladi?",
+        "options": [
+          "responsive",
+          "srcset",
+          "mobile",
+          "adapt"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "html-15",
+        "question": "CSS 'display: none' va 'visibility: hidden' farqi?",
+        "options": [
+          "Farqi yo'q",
+          "display: none elementni olib tashlaydi, visibility hidden faqat yashiradi",
+          "visibility hidden elementni olib tashlaydi",
+          "Ikkalasi ham bir xil"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "general",
+    "name": "Umumiy bilim",
+    "icon": "🧠",
+    "color": "#10B981",
+    "bgColor": "rgba(16, 185, 129, 0.12)",
+    "questionCount": 15,
+    "questions": [
+      {
+        "id": "gen-1",
+        "question": "HTTP status code 404 nimani anglatadi?",
+        "options": [
+          "Server error",
+          "Sahifa topilmadi",
+          "Muvaffaqiyatli",
+          "Redirect"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-2",
+        "question": "API nima?",
+        "options": [
+          "Application Program Interface",
+          "Application Process Integration",
+          "Automatic Program Input",
+          "Applied Programming Interface"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-3",
+        "question": "Git da branch nima?",
+        "options": [
+          "Repository nusxasi",
+          "Mustaqil rivojlanish liniyasi",
+          "Fayl turi",
+          "Commit turi"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-4",
+        "question": "SQL nima?",
+        "options": [
+          "Programming language",
+          "Database query language",
+          "Markup language",
+          "Style language"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-5",
+        "question": "OOP ning 4 asosiy prinsipi?",
+        "options": [
+          "Encapsulation, Inheritance, Polymorphism, Abstraction",
+          "Encapsulation, Interface, Package, Module",
+          "Class, Object, Method, Property",
+          "Public, Private, Protected, Static"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-6",
+        "question": "REST API da GET metodi nima uchun?",
+        "options": [
+          "Ma'lumot yaratish",
+          "Ma'lumot olish",
+          "Ma'lumot yangilash",
+          "Ma'lumot o'chirish"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-7",
+        "question": "DNS nima vazifani bajaradi?",
+        "options": [
+          "Domain nomini IP ga o'giradi",
+          "Ma'lumotlarni shifrlaydi",
+          "Email jo'natadi",
+          "Fayllarni saqlaydi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-8",
+        "question": "JSON formati nima?",
+        "options": [
+          "JavaScript Object Notation",
+          "Java Source Object Name",
+          "JavaScript Online Network",
+          "Java Standard Output Name"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-9",
+        "question": "Agile metodologiyasi nima?",
+        "options": [
+          "Dasturlash tili",
+          "Loyiha boshqaruv usuli",
+          "Database turi",
+          "Test framework"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-10",
+        "question": "HTTPS ning to'liq shakli?",
+        "options": [
+          "HyperText Transfer Protocol Secure",
+          "High Transfer Text Protocol System",
+          "HyperText Transfer Public System",
+          "High Transfer Text Protocol Secure"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-11",
+        "question": "CDN nima?",
+        "options": [
+          "Content Delivery Network",
+          "Code Development Network",
+          "Computer Data Network",
+          "Content Development Node"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-12",
+        "question": "VPN nima uchun ishlatiladi?",
+        "options": [
+          "Tez internet uchun",
+          "Xavfsiz ulanish va maxfiylik uchun",
+          "Veb-sayt yaratish",
+          "Ma'lumot saqlash"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-13",
+        "question": "TCP/IP nima?",
+        "options": [
+          "Dasturlash frameworki",
+          "Internet protokollari to'plami",
+          "Database turi",
+          "Operatsion sistema"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "gen-14",
+        "question": "UI va UX farqi?",
+        "options": [
+          "UI - dizayn, UX - foydalanuvchi tajribasi",
+          "Farqi yo'q",
+          "UX - dizayn, UI - foydalanuvchi tajribasi",
+          "Ikkalasi bir xil"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "gen-15",
+        "question": "Docker nima?",
+        "options": [
+          "Virtual machine",
+          "Containerization platform",
+          "Programming language",
+          "Database"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "algorithms",
+    "name": "Algoritmlar",
+    "icon": "⚡",
+    "color": "#F59E0B",
+    "bgColor": "rgba(245, 158, 11, 0.12)",
+    "questionCount": 10,
+    "questions": [
+      {
+        "id": "alg-1",
+        "question": "Big O notation nima?",
+        "options": [
+          "Algoritm tezligini o'lchash",
+          "Ma'lumotlar tuzilmasi",
+          "Dasturlash tili",
+          "Database"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "alg-2",
+        "question": "Binary search qanday ishlaydi?",
+        "options": [
+          "Tartiblangan arrayda yarmidan qidirish",
+          "Har bir elementni tekshirish",
+          "Arrayni saralash",
+          "Element qo'shish"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "alg-3",
+        "question": "Linked List nima?",
+        "options": [
+          "Array turi",
+          "Chiziqli ma'lumotlar tuzilmasi",
+          "Tree turi",
+          "Hash table"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "alg-4",
+        "question": "Time Complexity O(n) nimani anglatadi?",
+        "options": [
+          "Doimiy vaqt",
+          "Chiziqli vaqt",
+          "Kvadrat vaqt",
+          "Logarifmik vaqt"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "alg-5",
+        "question": "Stack ma'lumotlar tuzilmasi qanday ishlaydi?",
+        "options": [
+          "FIFO - First In First Out",
+          "LIFO - Last In First Out",
+          "Random access",
+          "Sorted access"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "alg-6",
+        "question": "Queue qanday ishlaydi?",
+        "options": [
+          "FIFO - First In First Out",
+          "LIFO - Last In First Out",
+          "Random access",
+          "Priority asosida"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "alg-7",
+        "question": "Quick Sort algoritmi qanday murakkablikka ega?",
+        "options": [
+          "O(n) - o'rtacha",
+          "O(n log n) - o'rtacha",
+          "O(n²) - o'rtacha",
+          "O(log n) - o'rtacha"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "alg-8",
+        "question": "Hash Table qanday ishlaydi?",
+        "options": [
+          "Kalit-qiymat juftligini saqlaydi",
+          "Faqat kalit saqlaydi",
+          "Faqat qiymat saqlaydi",
+          "Tartiblangan ro'yxat"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "alg-9",
+        "question": "Recursion nima?",
+        "options": [
+          "Funksiyaning o'zini o'zi chaqirishi",
+          "Loop turi",
+          "Array metodi",
+          "Error handling"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "alg-10",
+        "question": "BFS (Breadth-First Search) qanday ishlaydi?",
+        "options": [
+          "Chuqurlik bo'yicha qidirish",
+          "Kenglik bo'yicha qidirish",
+          "Tartiblangan qidirish",
+          "Binary qidirish"
+        ],
+        "correct": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "React-da komponent yaratish uchun qaysi usul ishlatiladi?",
+    "options": [
+      "function Component() {}",
+      "new Component()",
+      "createComponent()",
+      "defineComponent()"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 2,
+    "question": "useEffect hook'i qanday vazifani bajaradi?",
+    "options": [
+      "State yaratish",
+      "Yon effektlarni boshqarish",
+      "Ref yaratish",
+      "Memolash"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "question": "JSX nima?",
+    "options": [
+      "JavaScript kutubxonasi",
+      "JavaScript-ga o'xshash sintaksis",
+      "CSS preprocessor",
+      "Ma'lumotlar bazasi"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 4,
+    "question": "Props nima uchun ishlatiladi?",
+    "options": [
+      "State boshqaruvi",
+      "Komponentga ma'lumot uzatish",
+      "Stil berish",
+      "Routing"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "question": "Virtual DOM qanday ishlaydi?",
+    "options": [
+      "To'g'ridan-to'g'ri real DOMga yozadi",
+      "O'zgarishlarni bufferda saqlaydi",
+      "DOMni har safar qayta yuklaydi",
+      "Faqat kerakli qismlarni yangilaydi"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 6,
+    "question": "useState hook'i qanday ishlatiladi?",
+    "options": [
+      "const [state, setState] = useState()",
+      "const state = useState()",
+      "this.state = useState()",
+      "state = useState()"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 7,
+    "question": "React-da conditional rendering qanday amalga oshiriladi?",
+    "options": [
+      "if-else yordamida",
+      "Ternary operator bilan",
+      "switch-case yordamida",
+      "for loop bilan"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "question": "React fragments nima uchun kerak?",
+    "options": [
+      "CSS uchun",
+      "Qo'shimcha DOM elementi qo'shmasdan JSX qaytarish",
+      "Routing uchun",
+      "State boshqaruvi uchun"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "useRef hook'i qanday maqsadda ishlatiladi?",
+    "options": [
+      "State yaratish",
+      "DOM elementlarga murojaat qilish",
+      "API chaqirish",
+      "Animatsiya"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "question": "React-da key prop'i nima uchun ishlatiladi?",
+    "options": [
+      "Stil berish",
+      "Elementlarni identifikatsiya qilish",
+      "Routing",
+      "Ma'lumotlarni saqlash"
+    ],
+    "correct": 1
+  }
+]
